@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment, /* environment, appConfig */) {
+module.exports = function(environment /* appConfig */) {
   const ENV = {
     modulePrefix: 'super-blog',
     environment
