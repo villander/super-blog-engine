@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.mount('super-blog', { as: 'blog' });
 });
 
 export default Router;
